@@ -13,8 +13,8 @@ script:
 after_script:
   - cd ./dist
   - git init
-  - git config user.name "${USER_NAME}"
-  - git config user.email "${USER_EMAIL}"
+  - git config user.name "${8qiqi}"
+  - git config user.email "${3510363360@qq.com}"
   - git add .
   - git commit -m "blog.jzxer.cn"
   - git push --force --quiet "https://${0a0e14a5c16e15af514b529b530791980314e2c3}@${github.com/8qiqi/book}" master:${gh-pages}
