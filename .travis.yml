@@ -1,0 +1,26 @@
+language: node_js
+# nodejs版本
+node_js:
+    - '8.9.1'
+
+# S: Build Lifecycle
+install:
+  - npm install
+script:
+  - npm run build
+
+# 这个是不是看着很熟悉？
+after_script:
+  - cd ./dist
+  - git init
+  - git config user.name "${8qiqi}"
+  - git config user.email "${3510363360@qq.com}"
+  - git add .
+  - git commit -m "blog.jzxer.cn"
+  - git push --force --quiet "https://${0a0e14a5c16e15af514b529b530791980314e2c3}@${github.com/8qiqi/book}" master:${gh-pages}
+# E: Build LifeCycle
+
+# 只对某个分支行为生效
+branches:
+  only:
+    - master
