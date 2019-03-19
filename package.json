@@ -1,7 +1,7 @@
 {
   "name": "book",
   "version": "1.0.0",
-  "description": "在线电子书",
+  "description": "在线电子书 https://github.com/8qiqi/book",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/8qiqi/book.git"
   },
-  "author": "8qiqi",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/8qiqi/book/issues"
   },
-  "homepage": "https://github.com/8qiqi/book#readme"
+  "homepage": "https://github.com/8qiqi/book#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.2"              
-    }
+    "gitbook-cli": "^2.3.2"
+  }
 }
